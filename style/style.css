@@ -1,13 +1,18 @@
 body {
- 
     height: 100vh;
+    width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.785)) padding-box,
         linear-gradient(to right, darkblue, darkorchid) border-box;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0 0 0 auto;
+    font-family: 'Dancing Script', 'cursive';
 
+}
+p{
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 1.5rem ;
 }
 a{
     color: inherit;
@@ -15,6 +20,7 @@ a{
   }
 .navbar{
     padding-top:0;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -24,7 +30,7 @@ a{
     background-color: none;
 }
 li{
-    margin: auto 7px;
+    margin: auto 15px;
 }
 li:hover{
     transform: scale(1.1);
@@ -32,9 +38,18 @@ li:hover{
 img{
     border-radius: 10%;
 }
+#intro{
+    margin-top: 40px;
+}
 .introP{
     text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
 
+}
+.introImg{
+    height: 100%;
+    width: 100%;
 }
 /* .row{
     margin: auto 10px;
@@ -42,7 +57,7 @@ img{
     flex-direction: column;
 } */
 .AboutUs{
-    margin:20px;
+    margin-top: 60px;
 }
 .Events{
     margin-top: 70px;
@@ -53,17 +68,18 @@ h1{
     font-size:3.5rem;
     line-height:1.5;
     font-weight: 900;
-    font-family: 'Montserrat-black', sans-serif;
-
+    font-family: 'IBM Plex Mono', sans-serif;
 }
 
 #logo {
     height: 60px;
 }
 .social{
-    padding:2% 20% 1%;
+    padding:2% 30% 1%;
     text-align: center;
-  }.h3_cta:hover{
+    margin-top: 50px;
+}
+.h3_cta:hover{
   color: white;
 }
 .insta:hover{
@@ -74,4 +90,7 @@ h1{
 }
 .gmail:hover{
   color: #000;
+}
+.social .col {
+    
 }
