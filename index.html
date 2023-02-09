@@ -7,90 +7,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- font-api -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/51d7177b17.js" crossorigin="anonymous"></script>
+    <title>RokON</title>
 
-    <title></title>
+    <!-- google-font-api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kalam&family=Teko:wght@600&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap linkers -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="style/style.css">
-    </link>
 </head>
 
 <body>
-    <div class="content">
+    <!-- navbar working -->
+    <section class="navbar" style="background:none ">
+        <nav class="navbar bg-dark ms-auto navbar-expand-lg bg-body-tertiary fixed
+                -top" data-bs-theme="dark">
+            <div class="container-fluid ">
 
-
-        <section class="navbar" style="background:none">
-            <nav style="background:none; text-align: left; width:100%; margin: 0px 0px; justify-content: space-between;"
-                class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                <div class="container-fluid">
-
-                    <a style="width:35%" class="navbar-brand" href="#"><img id="logo"
-                            src="images/logo.png" /></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="nav-content collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Expand
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                              </li>                            <li>
-                                <button type="button" class="btn btn-dark">Sign Up</button>
-                            </li>
-                            <li>
-                                <button type="button" class="btn btn-success">Log In</button>
-                            </li>
-
-                            <ul>
+                <a style="width:35%" class="navbar-brand" href="#"><img id="logo" src="images/logo.png" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav-content collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Events
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Hack Nsut</a></li>
+                                <li><a class="dropdown-item" href="#">Nsut Thon</a></li>
+                                <li><a class="dropdown-item" href="#">Nsut Winter Sports</a></li>
                             </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
-        <section id="intro">
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-dark">Sign Up</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-success">Log In</button>
+                        </li>
 
-            <div class="row">
-                <div class="introP col-4">
-                    <h1>RokOn</h1>
-                    <h2 style="color: whitesmoke;">Reach new heights in competitive gaming with ROKON.</h2>
-                </div>
-                <div class="introImg col-6">
-                    <img class="introimg" src="images/Back.jpeg" />
+                        <ul>
+                        </ul>
                 </div>
             </div>
-            <div class="AboutUs">
-                <h1 style="text-align: right;margin:auto 2px;">About Us</h1>
-                <div id="content" style="display:flex; align-items: center;" >
-                    <div><img style="width:60%" src="images/abt.jpeg" /></div>
-                    <div>
-                        <p style="text-align: right; margin:auto 10px; color: white;">To create a world where all those
-                            passionate about esports can come together to compete, connect, and celebrate. We strive to
-                            create the best possible experience for gamers and the community, empowering them with the
-                            opportunity to showcase their talents and showcase their love of gaming. We aim to promote
-                            inclusivity, foster camaraderie, and encourage competition.</p>
-                    </div>
+        </nav>
+    </section>
+    <section id="intro">
+
+        <div class="row">
+            <div class="introP col ">
+                <h1>R<i class="fa-solid fa-game-console-handheld fa-2x"></i>kOn</h1>
+                <h2 style="color: whitesmoke;">Reach new heights in competitive gaming with RokOn.</h2>
+            </div>
+            <div class="introImg col">
+                <img class="introI3mg" src="images/Back.jpeg" />
+            </div>
+        </div>
+        <div class="AboutUs">
+            <h1 style="text-align: right;margin:auto 2px;">About Us</h1>
+            <div id="content" style="display:flex; align-items: center;">
+                <div><img style="width:60%" src="images/abt.jpeg" /></div>
+                <div>
+                    <p style="text-align: right; margin:auto 10px; color: white;">To create a world where all those
+                        passionate about esports can come together to compete, connect, and celebrate. We strive to
+                        create the best possible experience for gamers and the community, empowering them with the
+                        opportunity to showcase their talents and showcase their love of gaming. We aim to promote
+                        inclusivity, foster camaraderie, and encourage competition.</p>
                 </div>
             </div>
-            <div class="Events">
-                <!-- <h1 style="text-align: left; margin:auto 2px;">Events</h1> -->
-                <div id="content" style="display:flex">
-                    <!-- <div>
+        </div>
+        <div class="Events">
+            <!-- <h1 style="text-align: left; margin:auto 2px;">Events</h1> -->
+            <div id="content" style="display:flex">
+                <!-- <div>
                     <p style="text-align: left; margin:auto 10px; color: white;align;">Ready to Reach New Heights? Join us Now and Start Your Competitive Gaming Journey! Start joining fast for:</p>
                     <p>PentaCard Gaming</p>
                     <p>WestCoast Gaming</p>                    
@@ -99,27 +111,34 @@
                     <p>AppleTon Gaming</p>                    
                     <p>Bridge Scarlet</p> 
                     <p>Mighty Minors</p>                    -->
-                    <!-- </div> -->
-                    <div>
-                        <img style="width:60%" src="images/Events.jpeg" />
-                    </div>
+                <!-- </div> -->
+                <div>
+                    <img style="width:60%" src="images/Events.jpeg" />
                 </div>
             </div>
-        </section>
-        <section class="Socials">
-            <div class="social">
+        </div>
+    </section>
+    <section class="Socials">
+        <div class="social row">
+            <div class="col">
                 <a href=""><i class="fa fa-solid fa-envelope fa-2x gmail" href="CONTACT_ME.html"></i></a>
+            </div>
+            <div class="col">
                 <a href="" target="_blank" <i class="fa fa-brands fa-twitter fa-2x twitter"></i></a>
+            </div>
+            <div class="col">
                 <a href="https://www.instagram.com/m_mjatin/" target="_blank" <i
                     class="fa fa-brands fa-instagram fa-2x insta"></i></a>
             </div>
-            <footer class="footer">
 
-                <p>© Copyright RokOn</p>
+        </div>
+        <footer class="footer">
 
-            </footer>
-        </section>
-    </div>
+            <p>© Copyright RokOn</p>
+
+        </footer>
+    </section>
+
 
 
     <script src="script/script.js"></script>
